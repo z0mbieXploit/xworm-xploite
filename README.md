@@ -1,41 +1,28 @@
-📋 Features
-🔍 Detection Capabilities
-Process Analysis - Identify suspicious running processes
+🎯 Xworm RCP Overview
+Xworm RCP is a sophisticated Windows Remote Administration Tool (RAT) with extensive capabilities for remote system control and data exfiltration.
 
-Registry Monitoring - Detect persistence mechanisms
+Key Characteristics
+Type: Remote Access Trojan (RAT)
 
-Network Scanning - Find C2 communications
+Platform: Windows
 
-Behavioral Analysis - Recognize malware patterns
+Distribution: Phishing, exploit kits, malicious downloads
 
-IOC Extraction - Collect indicators of compromise
+Persistence: Registry, services, scheduled tasks
 
-📊 Analysis Tools
-PE file structure examination
+Communication: Encrypted C2 channels
 
-Import/Export table analysis
+🔍 Features
+Detection Capabilities
+RCP-specific signature detection
 
-String extraction and pattern matching
+Behavioral analysis of remote control patterns
 
-Risk scoring algorithm
+Network protocol analysis
 
-Comprehensive reporting
+Persistence mechanism identification
 
-🛡️ Defensive Utilities
-Security recommendations generator
+Memory artifact scanning
 
-System hardening guidelines
-
-Incident response templates
-
-Forensic data collection
-
-🚀 Quick Start
-Prerequisites
-Python 3.8 or higher
-
-Windows OS (for full functionality)
-
-Required packages: psutil, pefile
-
-Xworm is a Windows-based remote access trojan (RAT) and backdoor that has been active in various forms since around 2014. It's typically distributed through phishing campaigns, exploit kits, and malicious downloads.
+# git clone https://github.com/your-username/xworm-xploite.git
+  cd xworm-xploite
