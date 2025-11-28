@@ -23,6 +23,3 @@ Network protocol analysis
 Persistence mechanism identification
 
 Memory artifact scanning
-
-git clone https://github.com/your-username/xworm-xploite.git
-cd xworm-xploite
